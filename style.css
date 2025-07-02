@@ -1,7 +1,8 @@
 .header-content {
   display: flex;
   justify-content: space-between;
-  max-width: 1000px;
+  max-width: 1100px;
+  width: 100%;
   margin: 60px auto;
 }
 
@@ -39,65 +40,45 @@ nav ul a {
 }
 
 .main-content {
-  display: flex;
+  max-width: 1100px;
+  width: 100%;
   margin: 0 auto;
-  max-width: 1000px;
 }
 
-.introducao {
-  display: grid;
-  grid-template-columns: 650px 350px;
-  align-items: start;
+.flex-content {
+  display: flex;
 }
 
-.introducao-img {
+.introducao img {
   display: block;
-  width: 739px;
-  height: 0px;
-  padding: 0px;
-  margin: 0px;
-}
-
-.introducao-img img {
-  max-width: 100%;
-  width: 650px;
+  width: 750px;
   object-fit: cover;
 }
 
-.flex-texto {
+.flex-introducao {
   display: flex;
-  max-width: 739px;
+  gap: 140px;
 }
 
 .texto-titulo {
-  font: 800 2rem/1.125 "Inter", "Sans-Serif";
+  font: 800 3rem/1.125 "Inter", "Sans-Serif";
   color: #00001a;
 }
 
 .texto-paragrafo {
-  display: grid;
-  grid-column: 1;
-  margin: 16px auto;
-  font: 400 0.9rem/1.125 "Inter", "Sans-Serif";
+  margin-top: 32px;
+  font: 400 0.9rem/1.8 "Inter", "Sans-Serif";
   color: #686868;
-}
-
-.botao {
-  display: grid;
-  grid-column: 1;
-  justify-content: center;
-  margin-right: 10px;
 }
 
 .botao {
   text-decoration: none;
   color: black;
-  font: 400 1rem/1.125 "Inter", "Sans-Serif";
-}
-
-.new-content {
-  display: block;
-  width: 400px;
+  background: #f74131;
+  font: 500 0.8rem/1.125 "Inter", "Sans-Serif";
+  text-transform: uppercase;
+  margin-left: 388px;
+  padding: 16px 40px;
 }
 
 .introducao-new {
@@ -127,7 +108,63 @@ nav ul a {
 }
 
 .lista {
-  background: red;
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.lista img {
+  width: 110px;
+}
+
+.flex-lista {
+  display: flex;
+  align-items: center;
+}
+
+.flex-texto {
+  margin-top: 28px;
+}
+
+.flex-texto p {
+  font: 800 1rem/1.125 "Inter", "Sans-Serif";
+}
+
+.flex-texto .texto2 {
+  font-size: 12px;
+  width: 262px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.retro {
+  position: relative;
+}
+
+.laptop {
+  position: relative;
+  width: 360px;
+}
+
+.growth {
+  margin-left: 30px;
+  position: relative;
+}
+
+.flex-lista p {
+  margin-left: 16px;
+  max-width: 100%;
+}
+
+span {
+  display: inline-block;
+  color: #f74131;
+  font: 600 38px/1.125 "Inter", "Sans-Serif";
+  position: absolute;
+  top: 0px;
+  left: 132px;
 }
 
 @media (max-width: 700px) {
