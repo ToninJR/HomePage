@@ -82,28 +82,33 @@ nav ul a {
 }
 
 .introducao-new {
-  margin-left: 24px;
+  padding: 24px;
   width: 294px;
-  height: 400px;
   background: #00001a;
   color: white;
+  margin-left: 20px;
 }
 
 .detalhe {
   color: #e6a742;
   margin: 0px;
-  padding: 20px 20px;
-  font: 600 2rem/1.125 "Inter", "Sans-Serif";
+  padding: 20px 0px;
+  font: 600 2.5rem/1.125 "Inter", "Sans-Serif";
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  margin: 20px 0px;
+  background-color: #808080;
 }
 
 .texto-grande {
-  margin-left: 16px;
-  font: 600 1rem/1.125 "Inter", "Sans-Serif";
+  font: 600 1.37rem/1.125 "Inter", "Sans-Serif";
 }
 
 .texto-pequeno {
-  margin-left: 16px;
-  font: 600 0.8rem/1.125 "Inter", "Sans-Serif";
+  font: 600 0.8rem/2 "Inter", "Sans-Serif";
   color: #b0afb5;
 }
 
