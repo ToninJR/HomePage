@@ -84,6 +84,7 @@ nav ul a {
 .introducao-new {
   padding: 24px;
   width: 294px;
+  height: 520px;
   background: #00001a;
   color: white;
   margin-left: 20px;
@@ -108,6 +109,7 @@ nav ul a {
 }
 
 .texto-pequeno {
+  text-decoration: none;
   font: 600 0.8rem/2 "Inter", "Sans-Serif";
   color: #b0afb5;
 }
@@ -172,26 +174,6 @@ span {
   left: 132px;
 }
 
-@media (max-width: 700px) {
-  .header-content {
-    margin: 80px 20px;
-    width: 100vh;
-  }
-  nav ul {
-    display: none;
-  }
-  .traco {
-    display: block;
-    width: 80px;
-    height: 30px;
-  }
-  .grid-responsive {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .introducao-img img {
-    display: block;
-    margin-left: 20px;
-    width: 100vh;
-  }
+.texto2 {
+  color: #686868;
 }
